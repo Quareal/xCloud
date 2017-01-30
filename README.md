@@ -7,7 +7,7 @@
 ![Главная страница](https://github.com/rvasources/xCloud/blob/master/main.jpg)
 - Платформы: Desktop, Mobile
 - Браузеры: Все современные браузеры с включенным JS
-- Серверная часть: PHP, MySQL
+- Серверная часть: Linux, PHP, MySQL
 - Язык: Русский ( Российская Федерация )
 
 # xCloud - Приложения
