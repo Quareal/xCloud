@@ -4,5 +4,9 @@
 - Сайт Quareal: https://quareal.ru/
 - Сайт проекта ( в разработке ): https://projects.quareal.ru/
 - Страница GitHub: https://github.com/rvasources/
-- Поддерживаемые языки: Русский ( Россия )
 ![Главная страница](https://github.com/rvasources/xCloud/blob/master/main.jpg)
+# Поддержка
+- Платформы: Desktop, Mobile
+- Браузеры: Все современные браузеры за исключением браузеров от Microsoft
+- Серверная часть: PHP, MySQL
+- Язык: Русский ( Российская Федерация )
