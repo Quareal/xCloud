@@ -6,7 +6,7 @@
 - Страница GitHub: https://github.com/rvasources/
 ![Главная страница](https://github.com/rvasources/xCloud/blob/master/main.jpg)
 
-# Поддержка
+# xCloud - Поддержка
 - Платформы: Desktop, Mobile
 - Браузеры: Все современные браузеры за исключением браузеров от Microsoft
 - Серверная часть: PHP, MySQL
