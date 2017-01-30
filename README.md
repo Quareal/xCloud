@@ -5,8 +5,6 @@
 - Сайт проекта ( в разработке ): https://projects.quareal.ru/
 - Страница GitHub: https://github.com/rvasources/
 ![Главная страница](https://github.com/rvasources/xCloud/blob/master/main.jpg)
-
-# xCloud - Поддержка
 - Платформы: Desktop, Mobile
 - Браузеры: Все современные браузеры с включенным JS
 - Серверная часть: PHP, MySQL
