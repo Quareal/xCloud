@@ -1,0 +1,171 @@
+body {
+transition: all 0.5s ease 0s;
+width:950px;
+margin:0px auto;
+color:#777;
+font:13px/18px 'Open Sans',arial,sans-serif;
+font-size:12px;
+background:rgba(255, 255, 255, 0.85);
+}
+
+a:link {
+text-decoration:none;
+color:#fff;
+}
+
+a:active {
+text-decoration:none;
+color:#fff;
+}
+
+a:visited {
+text-decoration:none;
+color:#fff;
+}
+
+a:hover {
+text-decoration:none;
+color:#fff;
+}
+
+input:focus {
+outline: none; 
+}
+
+h1 {
+color:#000;
+font-size:3.2em;
+font-weight:300;
+line-height:1.15;
+margin:.7em 0 .7em;
+}
+
+h2 {
+color:#000;
+font-size:2em;
+font-weight:300;
+line-height:1.15;
+margin:.7em 0 .7em;
+}
+
+.menu {
+padding-top:30px;
+font-family:arial;
+width:100%;
+text-align:center;
+border-spacing:0px;
+font-weight:normal;
+font-size:1.3em;
+color:#c2c2c2;
+}
+
+.menu td {
+transition: all 0.15s ease 0s;
+padding:15px;
+width:25%;
+background:url('/core/assets/img/line_br.png') no-repeat right;
+}
+
+.menu td:hover {
+transition: all 0.15s ease 0s;
+}
+
+.inp_text {
+width:500px;
+border-radius:0px;
+border:1px solid #BBBABA;
+background:linear-gradient(#f1f1f1, #fff);
+padding-left:20px;
+margin-bottom:15px;
+height:30px;
+}
+
+.inp_text:focus {
+border:1px solid #018dfe;
+}
+
+#content {
+margin:50px auto;
+width:952px;
+}
+
+#block_start {
+width:100%;
+padding-bottom:20px;
+border-bottom:1px solid #d9d9d9;
+margin-bottom:20px;
+}
+
+#cnt1 {
+padding:20px;
+padding-top:0px;
+border-bottom:1px solid #c2c2c2;
+overflow:auto;
+height:350px;
+}
+
+#cnt1 img {
+padding-top:20px;
+}
+
+#cont2 {
+text-align:center;
+}
+
+#bt_compl {
+margin-top:20px;
+float:right;
+border-radius:3px;
+border:1px solid #3079ed;
+background-color:#4d90fe;
+background:linear-gradient(#4d90fe, #4787ed);
+color:#fff;
+padding:20px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+#bt_compl:disabled {
+border:1px solid #d8d8d8;
+background-color:#fafafa;
+background:linear-gradient(#fafafa, #ededee);
+color:#d8d8d8;
+}
+
+#t {
+color:#018dfe;
+background:url('/core/assets/img/line_br_t.png') no-repeat right;
+}
+
+#comm_q {
+display:block;
+padding-bottom:30px;
+}
+
+#link {
+border-bottom:1px dashed #018dfe;
+color:#018dfe;
+padding-top:10px;
+display:block;
+width:175px;
+}
+
+#bt_wait {
+margin-top:20px;
+float:right;
+border-radius:3px;
+border:1px solid #3079ed;
+background-color:#4d90fe;
+background:url('/core/assets/img/wait.gif')no-repeat center,linear-gradient(#4d90fe, #4787ed);
+color:#fff;
+width:153px;
+padding-top:10px;
+padding-bottom:10px;
+}
+
+#avatar {
+width:200px;
+height:200px;
+border:1px solid #0078ff;
+border-radius:100%;
+}

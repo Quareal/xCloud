@@ -1,0 +1,17 @@
+#music_bt {
+height:40px;
+}
+
+#music_bt td {
+text-align:center;
+cursor:pointer;
+width:33.3%;
+}
+
+#music_bt td:hover {
+background:rgb(238, 238, 238);
+}
+
+#music_bt #td {
+border-right:2px solid rgb(238, 238, 238);
+}

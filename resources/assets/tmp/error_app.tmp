@@ -1,0 +1,7 @@
+<div id="info_block">
+	<h3><?=$this->title;?></h3>
+	<div>
+		<a id="re_install" onclick="close_error();" href="/?path=home">Закрыть</a>
+		<a id="in_appsmarket" href="#">Переустановить через Apps Market</a>
+	</div>
+</div>

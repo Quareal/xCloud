@@ -1,0 +1,15 @@
+<img id="profile_block" src="<?=$this->img?>">
+<div id="inform_block">
+	<div style="padding-top:45px;">
+		<span><?=$this->username?></span>
+		<br><?=$this->user_info?> 
+	</div>
+</div>
+<div id="rules_block">
+	<div id="blrules">
+		<a href="" id="cnt">Редактировать имя аккаута ( логин )</a>
+		<a href="" id="cnt">Изменить пароль от аккаунта xCloud</a>
+		<a href="" id="cnt">Указать путь к другой аватарке профиля</a>
+		<a href="" id="cnt">Добавить путь к личному, скрытому каталогу</a>
+	</div>
+</div>

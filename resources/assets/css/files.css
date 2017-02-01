@@ -1,0 +1,112 @@
+body {
+width:730px;
+margin:80px auto;
+background:#fff;
+color:#777;
+font:13px/18px 'Open Sans',sans-serif, 'FabricMDL2Icons';
+font-size:12px;
+}
+
+a:link {
+text-decoration:none;
+color:#999;
+}
+
+a:active {
+text-decoration:none;
+color:#999;
+}
+
+a:visited {
+text-decoration:none;
+color:#999;
+}
+
+input[type="text"] {
+padding:10px;
+border:0px;
+padding-left:0px;
+border-bottom:1px solid #08B9FF;
+width:505px;
+color:#777;
+background:rgba(249, 249, 249, .8);
+}
+
+h1 {
+color:#000;
+font-size:3.2em;
+font-weight:300;
+line-height:1.15;
+margin:.7em 0 1em;
+text-align:center;
+}
+
+long {
+max-width:361px;
+display:inline-block;
+}
+
+.info {
+padding:20px;
+border-radius:5px;
+background:rgba(249, 249, 249, .8);
+}
+
+.filet {
+display:inline-block;
+float:left;
+text-align:center;
+}
+
+.block {
+width:161px;
+height:130px;
+border:1px solid #E3E3E3;
+background:#fff;
+text-align:center;
+}
+
+.block img {
+width:54px;
+height:54px;
+margin:38px auto;
+}
+
+#text {
+display:inline-block;
+padding-left:20px;
+max-width:507px;
+font-size:13px;
+}
+
+.info b {
+display:inline-block;
+width:135px;
+}
+
+.info span {
+display:block;
+}
+
+#download, #remove, #rename {
+display:inline-block;
+margin-top:7px;
+color:#2ED207;
+width:145px;
+border:0px;
+border-bottom:1px solid #2ED207;
+padding:5px;
+margin-right:15px;
+text-align:center;
+}
+
+#remove {
+color:RGBA(210, 7, 7, .56);
+border-bottom:1px solid RGBA(210, 7, 7, .56);
+margin:0px;
+}
+
+#rename {
+color:RGBA(126, 132, 29, .6);
+border-bottom:1px solid RGBA(126, 132, 29, .6);
+}

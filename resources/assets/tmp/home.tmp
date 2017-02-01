@@ -1,0 +1,44 @@
+﻿<html>
+	<head>
+		<title>xCloud: Главная страница</title>
+		<meta charset="UTF-8"/>
+		<link href="/resources/assets/css/OpenSans.css" rel="StyleSheet" type="text/css"/>
+		<link href="/resources/assets/css/FabricMDL2Icons.css" rel="StyleSheet" type="text/css"/>
+		<link href="/resources/styleapp.php" rel="StyleSheet" type="text/css"/>
+		<link href="/resources/assets/css/home.css" rel="StyleSheet" type="text/css"/>
+		<script src="/resources/assets/js/jquery-1.7.2.js"></script>
+		<script src="/resources/assets/js/jquery.cookie.min.js"></script>
+		<meta name="format-detection" content="telephone=no">
+		<script src="/resources/assets/js/click.js"></script>
+		<script src="/resources/assets/js/jquery.arcticmodal.js"></script>
+		<script src="/resources/jsget.php"></script>
+	</head>
+	<body>
+		<center>
+			<h1>xCloud</h1>
+		</center>
+		<table class="menu">
+			<tr>
+				<td class="home_m" id="o">
+					<a href="/?path=home">Приложения</a>
+				</td>
+				<td class="notice_m" id="o">
+					<a href="/?path=notice">Уведомления</a>
+				</td>
+				<td class="search_m" id="o">
+					<a href="/?path=search">Поиск</a>
+				</td>
+				<td style="border:0px;padding-left:45px;">
+					<a href="<?=$this->edt_url?>">
+						<img id="user_img" src="<?=$this->avatar?>">
+						<?=$this->username?>
+					</a>
+				</td>
+			</tr>
+		</table>
+		<div class="apps_list" id="content"></div>
+		<div class="apps_ct" id="content"></div>
+		<div class="mini_app"></div>
+		<div id="error_window" style="display:none;"></div>
+	</body>
+</html>

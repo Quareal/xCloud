@@ -1,0 +1,20 @@
+<table>
+	<td valign="top" id="menu_st">
+		<div>
+			<a id="st_g" href="<?=$this->url;?>&page=1">Системные параметры</a>
+			<a id="acc" href="<?=$this->url;?>&page=2">Персональные данные</a>
+			<!--<a id="c_d" href="<?=$this->url;?>&page=3">Подключенные устройства</a>-->
+		</div>
+
+		<div>
+			<a id="ins_a" href="<?=$this->url;?>&page=4">Установленные приложениями</a>
+			<a id="rules" href="<?=$this->url;?>&page=5">Права пользователей</a>
+			<a id="mon" href="<?=$this->url;?>&page=6">Мониторинг системы</a>
+			<a id="terminal" href="<?=$this->url;?>&page=5">Эмулятор терминала</a>
+			<a id="trash" href="<?=$this->url;?>&page=7">Удаленные файлы</a>
+		</div>
+	</td>
+	<td valign="top" id="ct_onloud">
+		<?=$this->content?>
+	</td>
+</table>

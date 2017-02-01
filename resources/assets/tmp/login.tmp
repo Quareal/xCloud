@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title><?=$this->title?></title>
+		<link href="/resources/assets/css/OpenSans.css" rel="StyleSheet" type="text/css"/>
+		<link href="/resources/assets/css/login.css" rel="StyleSheet" type="text/css"/>
+		<meta name="format-detection" content="telephone=no">
+	</head>
+	<body>
+		<center>
+			<h1>Авторизация</h1>
+		</center>
+		<div id="content">
+			<div class="login_form">
+				<form method="POST">
+					<!---<center>
+						<img id="avatar" src="/core/assets/img/noavatar.png">
+					</center>---->
+					<input type="text" id="input" placeholder="Имя пользователя" name="username">
+					<input type="password" id="input" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" name="password">
+					<input type="submit" value="Авторизироваться" name="login" id="bt_login">
+				</form>
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Информация о <?=$this->title?></title>
+		<link href="/resources/assets/css/OpenSans.css" rel="StyleSheet" type="text/css"/>
+		<link href="/resources/assets/css/files.css" rel="StyleSheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="info">
+			<div style="min-height:133px;">
+				<div class="filet">
+					<div class="block">
+						<img src="<?=($this->type == 1) ? '/resources/assets/img/Anknow.png' : '/resources/assets/img/dir.png'?>">
+					</div>
+				</div>
+				<div id="text">
+					<span><b>Имя <?=($this->type == 1) ? 'файла' : 'каталога'?>:</b> <?=$this->name?></span>
+					<span><?=($this->type == 1) ? '<b>Размер файла:</b>' : '<b>Вложения:</b>'?> <?=$this->size?></span>
+					<span><b>Путь на сервере:</b> <?=$this->way?></span>
+					<span><b>Права:</b> <?=$this->rules?></span>
+					<span><b>Дата создания:</b> <?=$this->time?></span>
+					<span style="margin-top:5px;">
+						<?=($this->type == 1) ? '<a href="<?=$this->url_dwnld?>" id="download">Скачать</a>' : ''?>
+						<a href="#" id="rename">Переименовать</a>
+						<a href="#" id="remove">Удалить</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

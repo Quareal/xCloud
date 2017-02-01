@@ -1,0 +1,52 @@
+#profile_block {
+border-radius:400px;
+height:100px;
+width:100px;
+border:2px solid #e6e6e6;
+margin-left:40px;
+margin-top:25px;
+position:absolute;
+background:#fff;
+}
+
+#inform_block {
+background:url(<?=$this->app_url?>/bg.png);
+padding-left:170px;
+line-height:22px;
+border-bottom:1px solid #e6e6e6;
+height:105px;
+}
+
+#inform_block span {
+font-size:1.4em;
+color:#999;
+}
+
+#rules_block {
+padding-left:165px;
+padding-right:165px;
+padding-top:40px;
+}
+
+#blrules {
+border-radius:2px;
+box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.19);
+margin-bottom:20px;
+}
+
+#blrules #name_t {
+color:#777575;
+font-size:15px;
+border-bottom:1px solid rgba(0,0,0,0.12);
+padding:15px;
+}
+
+#blrules #cnt {
+padding:15px;
+display:block;
+border-bottom:1px solid rgba(0,0,0,0.12);
+}
+
+#blrules #cnt:hover {
+background:rgba(240, 240, 240, 0.4);
+}

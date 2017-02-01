@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- Comment -->
+<!DOCTYPE APP_CONTENT
+     [
+     <!ELEMENT APP_CONTENT (INTERNALS)*>
+     <!ELEMENT INTERNALS (NAME, DESCRIPTION, DIR, BROADCAST, APPS_MARKET, VERSION)>
+     <!ELEMENT NAME (#PCDATA)>
+     <!ELEMENT DESCRIPTION (#PCDATA)>
+	 <!ELEMENT DIR (#PCDATA)>
+	 <!ELEMENT BROADCAST (#PCDATA)>
+	 <!ELEMENT APPS_MARKET (#PCDATA)>
+	 <!ELEMENT VERSION (#PCDATA)>
+     ]
+>
+<APP_CONTENT>
+     <INTERNALS>
+          <NAME> Календарь </NAME>
+          <DESCRIPTION> Календарь поможет Вам планировать дневное расписание, правздники и многое другое. </DESCRIPTION>
+		  <DIR> calendar </DIR>
+		  <BROADCAST> 0 </BROADCAST>
+		  <START> 1 </START>
+		  <APPS_MARKET> #calendar </APPS_MARKET>
+		  <VERSION> 1.0 </VERSION>
+     </INTERNALS>
+</APP_CONTENT>

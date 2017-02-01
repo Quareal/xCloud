@@ -1,0 +1,46 @@
+#tbl_app {
+width:100%;
+border-spacing:0px;
+font-size:12px;
+}
+
+#tbl_app #first td {
+padding:7px;
+border-bottom:1px solid #e6e3e3;
+border-right:1px solid #e6e3e3;
+}
+
+#tbl_app #second img {
+height:30px;
+}
+
+#tbl_app #second td {
+border-bottom:1px solid #e6e3e3;
+height:40px;
+}
+
+#tbl_app #second:hover {
+background:rgb(242, 242, 242);
+}
+
+fieldset {
+background:rgba(241, 241, 241, 0.42);
+padding:0px;
+border:1px solid #DADADA;
+border-radius:4px;
+margin-bottom:15px;
+}
+
+fieldset legend {
+margin-left:10px;
+border:1px solid #DADADA;
+border-radius:3px;
+padding:1px;
+padding-left:15px;
+padding-right:15px;
+}
+
+fieldset #ctnt {
+border-bottom:1px solid #DADADA;
+padding:10px;
+}

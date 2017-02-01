@@ -1,0 +1,3 @@
+<div class="miniapp">
+	<?=$this->content?>
+</div>

@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "/resources/assets/xhtml-mobile10.dtd">
+<html>
+	<head>
+		<title>xCloud: Мобильная версия</title>
+		<link href="/resources/assets/css/OpenSans.css" rel="StyleSheet" type="text/css"/>
+		<link href="/resources/styleapp.php" rel="StyleSheet" type="text/css"/>
+		<link href="/resources/assets/css/home_mobile.css" rel="StyleSheet" type="text/css"/>
+		<script src="/resources/assets/js/jquery-1.7.2.js"></script>
+		<meta name="format-detection" content="telephone=no">
+		<script src="/resources/assets/js/click_m.js"></script>
+		<script src="/resources/assets/js/jquery.arcticmodal.js"></script>
+		<meta name="viewport" content="user-scalable=no, width=device-width" />
+	</head>
+	<body>
+		<div class="apps_list" id="content"></div>
+		<div class="apps_ct" id="content"></div>
+		<div id="error_window" style="display:none;"></div>
+		<div id="menu_content">
+			<div style="padding:25px;">
+				<div id="menu_ah">
+					<a href="/?path=home" onclick="menu_e(true);" id="cnt">Установленные приложения</a>
+					<a href="/?path=notice" onclick="menu_e(true);" id="cnt">Уведомления системы</a>
+					<a href="/?path=search" onclick="menu_e(true);" id="cnt">Поиск по всем элементам</a>
+					<a href="<?=$this->edt_url?>" onclick="menu_e(true);" id="cnt">Мой профиль</a>
+				</div>
+			</div>
+		</div>
+		<div class="menu">
+			<a id="menu" class="app_to" onclick="menu_e(false);"></a>
+			<a href="#" id="name">xCloud <span id="title_ct"></span></a>
+		</div>
+	</body>
+</html>

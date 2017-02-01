@@ -1,0 +1,17 @@
+<?php
+$history = (string)$this->history_back;
+?>
+<div class="application" id="a_c">
+	<div id="menu">
+		<table>
+			<td class="title_app">
+				<center><div><?=$this->title;?></div></center>
+			</td>
+			<td style="width:100px;">
+				<a onclick="resizewin();" class="window_bt yellow_b"></a>
+				<a <?=(!empty($history)) ? 'href="'.$history.'"' : 'href="/?path=home"'?> class="window_bt red_b"></a>
+			</td>	
+		</table>
+	</div>
+	<div class="ap_c"><?=$this->content;?></div>
+</div>

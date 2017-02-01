@@ -1,0 +1,33 @@
+<div>
+		<!--<a href="#">
+			<div id="add_fl_i"></div>
+			<div id="add_fl_t"> Создать</div>
+		</a>
+		<a href="#">
+			<div id="add_fl_u"></div>
+			<div id="add_fl_t"> Загрузить</div>
+		</a>
+		<a href="#">
+			<div id="add_fl_r"></div>
+			<div id="add_fl_t"> Переименовать</div>
+		</a>
+		<a href="#">
+			<div id="add_fl_d"></div>
+			<div id="add_fl_t"> Переместить</div>
+		</a>
+		<a href="#">
+			<div id="add_fl_ii"></div>
+			<div id="add_fl_t"> Информация</div>
+		</a>
+		<a href="#">
+			<div id="add_fl_dd"></div>
+			<div id="add_fl_t"> Удалить папку</div>
+		</a>-->
+	<div style="height:40px;padding-left:12px;padding-right:12px;padding-top:6px;">
+		<?=$this->pad?>
+		<div id="do_ib"><?=$this->menu_mv?></div>
+	</div>
+	<div style="padding-left:12px;">
+		<?=$this->content?>
+	</div>
+</div>

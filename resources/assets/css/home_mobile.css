@@ -1,0 +1,176 @@
+body {
+margin:0px auto;
+color:#777;
+font-family:'Open Sans', sans-serif;
+font-size:small;
+background:#f1f1f1;
+padding-left:10px;
+padding-right:10px;
+}
+
+a {
+text-decoration:none;
+color:#777;
+}
+
+@media(max-width:600px)
+{
+	h1 {
+	color:#000;
+	font-size:1.2em;
+	font-weight:300;
+	line-height:1.15;
+	margin:.7em 0 .7em;
+	}
+
+	.menu {
+	position:fixed;
+	left:0px;
+	right:0px;
+	font-size:20px;
+	top:0px;
+	box-shadow:0 2px 4px rgba(200, 200, 200, 0.65);
+	border-bottom:1px solid #eaeaea;
+	padding-bottom:15px;
+	}
+	
+	.menu #name {
+	width:80%;
+	color:#616161;
+	height:55px;
+	line-height:55px;
+	padding-left:10px;
+	display:inline-block;
+	}
+	
+	.menu #menu, .menu #exit {
+	display:inline-block;
+	padding-right:10px;
+	cursor:pointer;
+	float:right;
+	color:#ccc;
+	width:14%;
+	font-size:50px;
+	line-height:53px;
+	text-align:right;
+	}
+
+	.menu #exit {
+	font-size:30px;
+	line-height:50px;
+	}
+	
+	.menu #menu:before {
+	content:"\2261";
+	}
+
+	.menu #exit:before {
+	content:"\002716";
+	}
+
+	.menu #title_ct {
+	color:#ccc;
+	}
+
+	.apps_list {
+	width:92.5%;
+	text-align:center;
+	margin:0px auto;
+	padding-top:70px;
+	}
+
+	#app_li {
+	width:148px;
+	margin:3.5px;
+	display:inline-block;
+	}
+
+	#block_app {
+	display:inline-table;
+	width:148px;
+	cursor:pointer;
+	position:relative;
+	background:#f9f9f9;
+	color:#777;
+	padding-top:20px;
+	box-shadow:0 1px 1px rgba(0,0,0,.2);
+	transition:box-shadow .1s ease;
+	}
+
+	#block_app:hover {
+	box-shadow:0 1px 3px rgba(0,0,0,.3);
+	}
+
+	#block_app:hover #title_app {
+	color:#4d90fe;
+	}
+
+	#title_app {
+	padding:10px;
+	height:30px;
+	background:#f2f2f2;
+	font:13px/18px 'Open Sans',arial,sans-serif;
+	font-weight:400;
+	text-align:center;
+	}
+
+	#logo_app {
+	width:54px;
+	height:56px;
+	margin:0 auto 20px;
+	}
+
+	#logo_app img {
+	width:54px;	
+	height:54px;
+	}
+
+	#menu_content {
+	position:absolute;
+	background:#fff;
+	display:none;
+	left:0px;
+	right:0px;
+	bottom:0px;
+	top:52px;
+	}
+
+	#menu_ah {
+	border-radius:2px;
+	box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.19);
+	margin-bottom:20px;
+	}
+
+	#menu_ah #cnt {
+	padding:15px;
+	text-align:center;
+	display:block;
+	border-bottom:1px solid rgba(0,0,0,0.12);
+	}
+
+	#menu_ah #cnt:hover {
+	background:rgba(240, 240, 240, 0.4);
+	}
+}
+
+@media(max-width:900px)
+{
+	h1 {
+	color:#000;
+	font-size:1.2em;
+	font-weight:300;
+	line-height:1.15;
+	margin:.7em 0 .7em;
+	}
+
+	.menu {
+	background:#fff;
+	height:40px;
+	width:100%;
+	position:fixed;
+	left:0px;
+	right:0px;
+	top:0px;
+	border-bottom:1px solid #f2f2f2;
+	}	
+}
