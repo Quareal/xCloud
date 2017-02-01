@@ -85,3 +85,5 @@ if(isset($_COOKIE['id']) && !empty($_COOKIE['id']))
 
 	$tmp->display('login.tmp');
 }
+
+mysql_close();
